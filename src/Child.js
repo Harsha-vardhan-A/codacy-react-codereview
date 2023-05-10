@@ -7,9 +7,9 @@ class Child extends Component {
     return (
       <div>
         <input
-          type={type}
-          label={label}
-          value={value}
+                              type={type}
+                              label={label}
+                              value={value}
           onChange={(e) => states(e.target.value)}
         />
       </div>
